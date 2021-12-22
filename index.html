@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style/stylesheet.css">
+</head>
+
+<body>
+    <div class="calculator_wrapper">
+        <div class="calculator">
+            <div class="calculator_screen">
+                <div id="screen" data-previous-operand class="previous-operand"></div>
+                <div id="screen" data-current-operand class="current-operand"></div>
+            </div>
+            <div class="calculator_button">
+                <button class="color_b grid-column-two" data-all-clear>AC</button>
+                <button class="color_b" data-delete>DEL</button>
+                <button class="color_b" data-operation>÷</button>
+                <button class="color_a" data-number>7</button>
+                <button class="color_a" data-number>8</button>
+                <button class="color_a" data-number>9</button>
+                <button class="color_b" data-operation>*</button>
+                <button class="color_a" data-number>4</button>
+                <button class="color_a" data-number>5</button>
+                <button class="color_a" data-number>6</button>
+                <button class="color_b" data-operation>-</button>
+                <button class="color_a" data-number>1</button>
+                <button class="color_a" data-number>2</button>
+                <button class="color_a" data-number>3</button>
+                <button class="color_b" data-operation>+</button>
+                <button class="color_a" data-number>.</button>
+                <button class="color_a" data-number>0</button>
+                <button data-equals class="color_b grid-column-two equal">=</button>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="script/logic.js" defer></script>
+</body>
+
+</html>
